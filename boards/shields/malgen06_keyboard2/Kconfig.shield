@@ -1,0 +1,5 @@
+config SHIELD_MALGEN06_KEYBOARD2_LEFT
+    def_bool $(shields_list_contains,malgen06_keyboard2_left)
+
+config SHIELD_MALGEN06_KEYBOARD2_RIGHT
+    def_bool $(shields_list_contains,malgen06_keyboard2_right)
